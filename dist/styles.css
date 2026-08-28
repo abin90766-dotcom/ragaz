@@ -181,6 +181,7 @@ button { color: inherit; }
 .gallery-item > span { position: absolute; top: .75rem; left: .75rem; background: var(--paper); padding: .3rem .45rem; font-size: .6rem; }
 .gallery-item > small { position: absolute; right: .7rem; bottom: .7rem; background: var(--forest); color: #fff; padding: .35rem .5rem; font-size: .55rem; letter-spacing: .06em; text-transform: uppercase; }
 .lightbox-backdrop { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 1rem; background: rgba(13, 20, 17, .96); }
+.lightbox-backdrop[hidden] { display: none; }
 .lightbox { width: min(1260px, 95vw); max-height: 95vh; color: #fff; }
 .lightbox-toolbar, .lightbox-controls { display: flex; justify-content: space-between; align-items: center; }
 .lightbox-toolbar { padding-bottom: .75rem; }
