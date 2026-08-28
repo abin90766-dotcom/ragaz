@@ -116,6 +116,7 @@
     const backdrop = document.createElement('div')
     backdrop.className = 'lightbox-backdrop'
     backdrop.hidden = true
+    backdrop.style.display = 'none'
     backdrop.innerHTML = `
       <div class="lightbox" role="dialog" aria-modal="true" aria-label="Galerie imagine concept">
         <div class="lightbox-toolbar"><span data-lightbox-count></span><button data-lightbox-close aria-label="Închide galeria">Închide</button></div>
@@ -138,6 +139,7 @@
     }
     const close = () => {
       backdrop.hidden = true
+      backdrop.style.display = 'none'
       body.classList.remove('no-scroll')
       previousFocus?.focus?.()
     }
@@ -146,6 +148,7 @@
       previousFocus = document.activeElement
       render()
       backdrop.hidden = false
+      backdrop.style.display = 'grid'
       body.classList.add('no-scroll')
       closeButton.focus()
     }
