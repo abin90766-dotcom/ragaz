@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+    <rect width="1600" height="1100" fill="#cabda9"/>
+    <rect x="0" y="0" width="1600" height="120" fill="#f4efe6"/>
+    <rect x="0" y="850" width="1600" height="250" fill="#25332d"/>
+    <rect x="170" y="210" width="1260" height="640" fill="#40372f"/>
+        <rect x="245" y="280" width="520" height="440" fill="#5b695c"/>
+        <polygon points="245,720 420,500 590,720" fill="#25332d"/>
+        <rect x="860" y="510" width="390" height="220" fill="#c7b9a4"/>
+        <rect x="905" y="560" width="120" height="140" fill="#2c2925"/>
+        <polygon points="930,665 970,590 1010,665" fill="#a85a43"/>
+        <rect x="1120" y="350" width="26" height="360" fill="#876f58"/><text x="95" y="1010" font-family="Arial, sans-serif" font-size="36" fill="#f4efe6" letter-spacing="4">RĂGAZ 17 · IMAGINE CONCEPT</text></svg>

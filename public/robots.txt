@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+# Proiect concept. Indexarea este dezactivată și prin meta robots: noindex, follow.
