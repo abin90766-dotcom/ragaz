@@ -80,8 +80,8 @@ function page({title, description, current='', content, preload='/images/ragaz-h
     <meta name="description" content="${esc(description)}"><title>${esc(title)}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
-    <link rel="preload" as="image" href="${preload}" fetchpriority="high"><link rel="stylesheet" href="/styles.css">
-  </head><body><a class="skip-link" href="#main-content">Sari la conținut</a>${nav(current)}<main id="main-content">${responsiveContent}</main>${footer()}<script src="/site.js" defer></script></body></html>`
+    <link rel="preload" as="image" href="${preload}" fetchpriority="high"><link rel="stylesheet" href="/styles.css?v=3"><style>.lightbox-backdrop[hidden]{display:none!important}</style>
+  </head><body><a class="skip-link" href="#main-content">Sari la conținut</a>${nav(current)}<main id="main-content">${responsiveContent}</main>${footer()}<script src="/site.js?v=3" defer></script></body></html>`
 }
 function pageHero(eyebrow, title, text, image) {
   return `<section class="page-hero"><div class="page-hero-copy">${badge()}<p class="eyebrow">${eyebrow}</p><h1>${title}</h1><p>${text}</p></div><figure><img src="${image}" alt="${esc(title)}, imagine concept" width="1600" height="1100" fetchpriority="high"><figcaption>Imagine concept</figcaption></figure></section>`
